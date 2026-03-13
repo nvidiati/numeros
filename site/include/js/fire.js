@@ -1,6 +1,6 @@
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyD84pBnMW3et58mEPiCYZiyMuRmiRi1Bb8",
+    apiKey: "###########################",
     authDomain: "project-693128520333444136.firebaseapp.com",
     databaseURL: "http://bancaea-23f52.firebaseio.com",
     storageBucket: "project-693128520333444136.appspot.com",
