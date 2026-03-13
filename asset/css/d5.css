@@ -1,0 +1,425 @@
+body {
+	background-image:url(images/bgrdLogin.png);
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+img {
+	border:0px;
+}
+
+/*********************************************
+*******************  LINK  *******************/
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #747533;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #747533;
+}
+a:hover {
+	text-decoration: none;
+	color: #CAE001;
+}
+a:active {
+	text-decoration: none;
+	color: #747533;
+}
+
+/**************************************
+**************  PAGES  ***********/
+
+#contenedor {
+	height: 1000px;
+	width: 1024px;
+	margin: 20px auto;
+	background-color: #FFF;
+}
+#cuerpo {
+	height: 820px;
+	width: 980px;
+	margin:10px auto;
+	background-color: #FFF;
+	border-top: 5px #999 solid;
+}
+.cabecera li { display: inline; text-decoration: none; font-size:16px; margin: 0px; padding: 10px;
+}
+#fd5 {
+	background-image: url(images/bfooter.jpg);
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 70px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	vertical-align: middle;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: #FFF;
+}
+#cp_d5 {
+	height: 100%;
+	width: 100%;
+	background-color: #FFF;
+}
+
+
+#LoginPanel {
+	background-image:url(images/LoginBG.png);
+	width: 620px;
+	height: 320px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-bottom: 100px;
+	margin-left: auto;
+}
+#header {
+	height: 80px;
+	width: 1024px;
+	background-image: url(images/header_bgrd.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#login {
+	float: right;
+	height: 130px;
+	width: 250px;
+	margin-top: 155px;
+	margin-right: 80px;
+}
+#logo {
+	float: left;
+	height: 54px;
+	width: 110px;
+	margin-left: 30px;
+	background-image: url(images/d5_logo.png);
+	margin-top: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#menu_btn {
+	height: 55px;
+	width: 600px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#franja_sub_btn {
+	height: 25px;
+	width: 980px;
+	margin: 0px auto;
+	background-color:#FFF;
+}
+#view_articulo {
+	background-image: url(images/ttl.jpg);
+	background-color: #FFF;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	border:#FFF 1px solid;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: left;
+}
+
+#sub_btn {
+	height: 25px;
+	width: 300px;
+	float: right;
+	margin-right: 20px;
+}
+#titulod5 {
+	height: 25px;
+	width: 350px;
+	margin-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16pt;
+	color: #39a9cf;
+	text-align: left;
+	float: left;
+}
+#cp_inicio {
+	height: 1150px;
+	width: 980px;
+	margin: 0px auto;
+	background-color: #FFF;
+}
+#banner {
+	height: 60px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	background-image: url(images/bfooter.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+label{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#0066CC;	
+	}
+	b {
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;	
+	}
+
+/*****************************************************
+************************* CLASES *********************
+******************************************************/
+
+.BotonEntrar {
+	background-image:url(images/btn_entrar.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:120px;
+	height:30px;
+	display: block;
+	border: 0px;
+	cursor:pointer;
+	
+}
+
+
+.Encabezado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}
+
+
+
+.Normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Fieldnames {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+}
+.FieldnamesLista {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #CAE001;
+}
+.TXTcontador {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #39a9cf;
+	margin: 5px 10px;
+
+}
+
+.Titles {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+. Menuitems {
+	font-size: 12px;
+	font-weight: bold;
+}
+.fila_view{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#39a9cf;
+	border:#FFF 1px solid;
+}
+.spr{
+	background-image:url(Modules/imagenes/botones/spr.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.FNDtitu{
+	background-image:url(Modules/imagenes/bgrd_titu.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+	border:#FFF solid 1px;
+}
+.BRDblanco{
+	border:#FFF solid 1px;
+}
+
+.borde {
+	border:#666666 solid 1px;
+	
+	}
+	
+.txt11{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#333;
+	text-align:left;
+}
+.texto_limpio { font-size: 12px; font-weight:normal; color: #000;}
+.bg_img{
+	background-image: url(images/bfooter.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+.no_imagen100x100 {background-image:url(images/no_imagen100.jpg);
+background-repeat:no-repeat;
+background-position:center;
+width:100px;
+height:100px;
+}
+
+.no_imagen200x200 {background-image:url(images/no_img.jpg);
+background-repeat:no-repeat;
+background-position:center;
+width:200px;
+height:200px;
+}
+
+/***********************
+************************
+       MENU CSS3
+***********************
+***********************/
+
+/* Reset */
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+/* Menu */
+.menu {	
+	height: 40px;
+	width: 620px;
+	margin: 0px auto;
+
+	background: #4c4e5a;
+	background: -webkit-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -moz-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -o-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: -ms-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+	background: linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.menu li {
+	position: relative;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 40px;
+}
+
+/* Links */
+
+.menu li a {
+	display: block;
+	padding: 0 14px;
+	margin: 6px 0;
+	line-height: 28px;
+	text-decoration: none;
+	
+	border-left: 1px solid #393942;
+	border-right: 1px solid #4f5058;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+
+	color: #f3f3f3;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
+
+.menu li:hover > a { color: #8fde62; }
+
+/* Sub Menu */
+
+.menu ul {
+	position: absolute;
+	top: 40px;
+	left: 0;
+
+	opacity: 0;
+	
+	background: #1f2024;
+
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+}
+
+.menu li:hover > ul { opacity: 1; }
+
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
+
+.menu li:hover > ul li {
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+}
+
+.menu ul li a {
+	width: 120px;
+	padding: 4px 0 4px 40px;
+	margin: 0;
+
+	border: none;
+	border-bottom: 1px solid #353539;
+}
+
+.menu ul li:last-child a { border: none; }
+
+/* Icons */
+
+.menu a.documents { background: url(images/doc.png) no-repeat 6px center; }
+.menu a.messages { background: url(images/buble.png) no-repeat 6px center; }
+.menu a.signout { background: url(images/flecha.png) no-repeat 6px center; }
