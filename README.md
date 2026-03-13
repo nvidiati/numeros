@@ -15,46 +15,46 @@ El sistema obtiene los resultados desde **Firebase**, permitiendo que
 los números se actualicen automáticamente en todas las pantallas
 conectadas.
 
-------------------------------------------------------------------------
+---
 
 # 📸 Vista previa
 
-## Pantalla principal
+## Pantalla 2 dias
 
 ![Vista principal](docs/capt1.png)
 
-## Visualización de resultados
+## Pantalla semanal
 
 ![Resultados](docs/capt2.png)
 
-------------------------------------------------------------------------
+---
 
 # ✨ Características
 
--   🎰 Visualización clara de **números de lotería**
--   🔄 **Actualización en tiempo real** utilizando Firebase
--   🖥 Diseñado para **pantallas grandes en consorcios**
--   ⚡ Interfaz ligera optimizada para visualización continua
--   📊 Organización de resultados por **día y horario (Tarde / Noche)**
--   🌐 Aplicación web accesible desde navegador
+- 🎰 Visualización clara de **números de lotería**
+- 🔄 **Actualización en tiempo real** utilizando Firebase
+- 🖥 Diseñado para **pantallas grandes en consorcios**
+- ⚡ Interfaz ligera optimizada para visualización continua
+- 📊 Organización de resultados por **día y horario (Tarde / Noche)**
+- 🌐 Aplicación web accesible desde navegador
 
-------------------------------------------------------------------------
+---
 
 # 🛠 Tecnologías utilizadas
 
 Este proyecto fue desarrollado utilizando:
 
--   **PHP**
--   **JavaScript**
--   **Firebase Realtime Database**
--   **HTML5**
--   **CSS3**
+- **PHP**
+- **JavaScript**
+- **Firebase Realtime Database**
+- **HTML5**
+- **CSS3**
 
 Firebase permite sincronizar los resultados en tiempo real entre
 múltiples dispositivos, lo que resulta ideal para sistemas de
 visualización en pantallas públicas.
 
-------------------------------------------------------------------------
+---
 
 # ⚙️ Cómo funciona
 
@@ -62,18 +62,18 @@ visualización en pantallas públicas.
     Database**.
 2.  La aplicación web se conecta a Firebase mediante JavaScript.
 3.  Cuando los datos cambian:
-    -   Firebase envía la actualización a todos los clientes conectados.
+    - Firebase envía la actualización a todos los clientes conectados.
 4.  Las pantallas muestran automáticamente los nuevos resultados.
 
 Este sistema evita la necesidad de recargar la página manualmente.
 
-------------------------------------------------------------------------
+---
 
 # 🚀 Instalación
 
 Clonar el repositorio:
 
-``` bash
+```bash
 git clone https://github.com/nvidiati/numeros.git
 ```
 
@@ -88,7 +88,7 @@ Abrir en el navegador:
 Configurar las credenciales de **Firebase** en el archivo
 correspondiente.
 
-------------------------------------------------------------------------
+---
 
 # 📁 Estructura del proyecto
 
@@ -104,31 +104,7 @@ correspondiente.
     │   └── capt2.png
     └── README.md
 
-------------------------------------------------------------------------
-
-# 💡 Posibles mejoras
-
-Algunas mejoras que podrían implementarse:
-
--   Panel de administración para actualizar resultados
--   Historial de sorteos
--   Soporte para más loterías
--   Animaciones para resaltar números ganadores
--   Diseño responsive para móviles
--   Exportación de resultados
-
-------------------------------------------------------------------------
-
-# 📚 Casos de uso
-
-Este sistema puede utilizarse en:
-
--   Consorcios de **lotería**
--   Pantallas informativas en **puntos de venta**
--   Sistemas de visualización de **resultados en tiempo real**
--   Pantallas públicas de sorteos
-
-------------------------------------------------------------------------
+---
 
 # 👨‍💻 Autor
 
@@ -137,7 +113,7 @@ Este sistema puede utilizarse en:
 GitHub\
 https://github.com/nvidiati
 
-------------------------------------------------------------------------
+---
 
 # 📄 Licencia
 
